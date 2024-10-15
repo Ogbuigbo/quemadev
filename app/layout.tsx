@@ -18,8 +18,15 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Quema Consulting",
+  title: {
+    default: "Quema Consulting",
+    template: "%s | Quema Consulting"
+  },
   description: "Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning.",
+  twitter: {
+    card: 'summary_large_image'
+  }
+
 };
 
 export default function RootLayout({

@@ -8,8 +8,6 @@ const AboutScrollHandler =({section}:{section?:string})=>{
 
     document.getElementById(section)?.scrollIntoView({behavior:"smooth"});
   }
-
-
     useEffect  (()=>{
         init()
     },[section])
