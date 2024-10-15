@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description: "Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning.",
   twitter: {
     card: 'summary_large_image'
+  },
+  openGraph: {
+    images: 'https://tinypic.host/images/2024/10/16/opengraph-image.png'
   }
 
 };

@@ -1,19 +1,10 @@
 'use client';
 
-import { useEffect, useRef } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import SnakeLine from "./SnakeLine";
 
 function Hero() {
-  // Explicitly type the ref
-  const lineRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    const line = lineRef.current;
-    if (line) { // Check if line is not null
-      line.style.width = "100%"; // Set the width of the line
-    }
-  }, []);
+ 
 
   return (
     <section className="relative bg-[#f2f4f6]">
@@ -37,11 +28,7 @@ function Hero() {
               Drive Business Results.
             </strong>
             {/* Snake Line animation */}
-            <div
-              ref={lineRef}
-              className="snake-line bg-[#fff] h-[4px] w-0 mt-2 mx-auto"
-              style={{ transition: "width 2s ease-in-out" }}
-            ></div>
+            <SnakeLine/>
           </h1>
 
           <p className="mt-4 sm:text-xl/relaxed text-white">
