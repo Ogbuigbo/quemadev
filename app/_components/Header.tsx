@@ -67,7 +67,7 @@ function Header() {
   return (
     <header
       className={`w-full px-6 lg:px-12 flex items-center justify-between z-50  py-4 transition-all duration-300 ease-in-out ${
-        isScrolled ? 'bg-[#5a1c25] text-white shadow-md' : 'bg-[#f9fafb] text-gray-900'
+        isScrolled ? 'bg-[#712323] text-white shadow-md' : 'bg-[#712323] text-white shadow-md'
       }`}
     >
       {/* Logo */}
@@ -75,9 +75,9 @@ function Header() {
         <Image
           src="https://tinypic.host/images/2024/10/14/quema-2-fotor-202410142237.png"
           width={250}
-          height={250}
+          height={100}
           alt="logo"
-          className="object-cover w-[100px]"
+          className={`object-cover w-[100px] ${isScrolled ? 'sm:w-[250px] w-[200px] h-[100px]' : 'sm:w-[250px] w-[200px] h-[100px]'}`}
         />
       </Link>
 
@@ -91,10 +91,10 @@ function Header() {
               activeLink === link.href
                 ? isScrolled
                   ? 'text-white border-b-2 border-white'
-                  : 'text-[#5f1928] border-b-2 border-[#5f1928]'
+                  : 'text-white border-b-2 border-white'
                 : isScrolled
                 ? 'text-white hover:text-gray-200 hover:border-b-2 hover:border-gray-200'
-                : 'text-gray-700 hover:text-[#5f1928] hover:border-b-2 hover:border-[#5f1928]'
+                : 'text-white hover:text-gray-200 hover:border-b-2 hover:border-gray-200'
             }`}
           >
             {link.label}
@@ -104,8 +104,8 @@ function Header() {
 
       {/* Contact Us Button */}
       <Link href="/contact" className="hidden lg:block">
-        <button className={`py-3 px-6 rounded-[4px] font-medium transition-all duration-300 ease-in-out ${
-          isScrolled ? 'bg-white text-[#5f1928] hover:bg-gray-200' : 'bg-[#5f1928] text-white hover:bg-[#a23d58]'
+        <button className={`py-3 px-6 rounded-[4px] font-medium transition-all duration-300 ease-in-out shadow-lg ${
+          isScrolled ? 'bg-white text-[#5f1928] hover:bg-gray-200' : 'bg-white text-black hover:bg-[#5f1928] hover:text-white'
         }`}>
           Contact Us
         </button>
@@ -113,7 +113,7 @@ function Header() {
 
       {/* Hamburger Menu Icon for Mobile */}
       <div className="lg:hidden">
-        {!nav ? <Menu onClick={handleClick} className={`w-8 h-8 ${isScrolled ? 'text-white' : 'text-[#5f1928]'}`} /> : <X onClick={handleClick} className={` w-8 h-8 ${isScrolled ? 'text-white' : 'text-[#5f1928]'}`} />}
+        {!nav ? <Menu onClick={handleClick} className={`w-8 h-8 ${isScrolled ? 'text-white' : 'text-white'}`} /> : <X onClick={handleClick} className={` w-8 h-8 ${isScrolled ? 'text-white' : 'text-white'}`} />}
       </div>
 
       {/* Mobile Navigation Menu */}

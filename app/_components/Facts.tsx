@@ -66,8 +66,9 @@ function Facts() {
             <span>Real Facts</span>
           </h1>
           <p className='text-white text-lg'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi iure minus placeat, dolorem animi. Eveniet repudiandae iure et.
-          </p>
+  At Quema Consulting, we are dedicated to empowering organizations through strategic human resources solutions. Our team has successfully completed hundreds of projects, supporting businesses to optimize talent, enhance employee engagement, and achieve sustained growth.
+</p>
+
         </div>
 
         {/* Stats Section */}
