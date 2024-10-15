@@ -21,14 +21,14 @@ function page() {
         {/* Buttons */}
         <div className="flex flex-wrap justify-center gap-6">
           <a
-            className="block rounded bg-[#821fa0] px-8 py-3 text-sm lg:text-base font-medium text-white shadow hover:bg-[#ae4bcc] focus:outline-none focus:ring active:bg-[#356bb1] sm:w-auto"
+            className="block rounded bg-[#5f1928] px-8 py-3 text-sm lg:text-base font-medium text-white shadow hover:bg-[#a23d58] focus:outline-none focus:ring active:bg-[#356bb1] sm:w-auto"
             href="#"
           >
             Contact Us Now
           </a>
 
           <Link
-            className="block rounded border px-8 py-3 text-sm lg:text-base font-medium  shadow hover:text-[#16202a] hover:bg-white  hover:border-[#821fa0]  focus:outline-none focus:ring active:text-[#0f151b] sm:w-auto"
+            className="block rounded border px-8 py-3 text-sm lg:text-base font-medium  shadow hover:text-[#16202a] hover:bg-white  hover:border-[#5f1928]  focus:outline-none focus:ring active:text-[#0f151b] sm:w-auto"
             href="/about"
           >
             Learn More

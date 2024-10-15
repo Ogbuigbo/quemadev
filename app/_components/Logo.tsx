@@ -14,16 +14,16 @@ const Logo = () => {
       alt: 'Mikano Logo',
     },
     {
-      src: 'https://tinypic.host/images/2024/10/12/Screen-Shot-2020-05-13-at-11_36_11-AM_pn.png',
-      alt: 'Client 3 Logo',
+      src: 'https://tinypic.host/images/2024/10/15/COBEF-LOGO.jpg',
+      alt: 'Cobef',
     },
     {
         src: 'https://tinypic.host/images/2024/10/12/logo-1.png',
         alt: 'Geolind',
       },
       {
-        src: 'https://tinypic.host/images/2024/10/14/logo5dae6cac51135ec5.png',
-        alt: 'Jevant Spencer',
+        src: 'https://tinypic.host/images/2024/10/15/Screenshot-2024-10-15-at-17.29.18.png',
+        alt: 'Serviteco',
       },
       {
         src: 'https://tinypic.host/images/2024/10/14/images-1.png',

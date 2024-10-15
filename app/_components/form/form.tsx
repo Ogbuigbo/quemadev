@@ -91,7 +91,7 @@ function Form() {
 					<div className="flex  mt-6">
 						<button
 							type="submit"
-							className="inline-block bg-[#821fa0] hover:bg-[#ae4bcc] transition-colors text-white font-semibold px-8 py-3 rounded-lg shadow-lg"
+							className="inline-block bg-[#5f1928] hover:bg-[#a23d58] transition-colors text-white font-semibold px-8 py-3 rounded-lg shadow-lg"
 						>
 							Submit
 						</button>

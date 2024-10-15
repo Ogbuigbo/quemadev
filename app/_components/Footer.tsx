@@ -126,7 +126,7 @@ function Footer() {
 
 						{showButton && (
 								<div
-									className="mt-[80px] ml-[10px] fixed xl:bottom-[270px] lg:bottom-[270px] md:bottom-[80px] bottom-[50px] xl:right-[100px] lg:right-[50px] xs:right-[20px] xxxs:right-[10px] md:right-[20px]  bg-[#821fa0] w-10 h-10 rounded-full flex items-center justify-center z-50"
+									className="mt-[80px] ml-[10px] fixed xl:bottom-[270px] lg:bottom-[270px] md:bottom-[80px] bottom-[50px] xl:right-[100px] lg:right-[50px] xs:right-[20px] xxxs:right-[10px] md:right-[20px]  bg-[#5f1928] w-10 h-10 rounded-full flex items-center justify-center z-50"
 									onClick={scrollToTop}
 								>
                                     <CornerRightUp className="text-white" />

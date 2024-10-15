@@ -26,7 +26,7 @@ function TopSection() {
             <p className='w-full xl:w-[500px] text-gray-700 text-justify'>
             Human Resource Planning begins with an analysis of the available labour pool from which they can draw. Quema Consulting would help evaluate your firm’s present and future demands for various types of labour and attempt to match the demand with the supply of job applicants. 
             </p>
-            <button className="bg-[#821fa0] text-white py-[14px] px-[30px] rounded-lg font-medium hover:bg-[#ae4bcc] transition-all duration-300 ease-in-out self-start">
+            <button className="bg-[#5f1928] text-white py-[14px] px-[30px] rounded-lg font-medium hover:bg-[#a23d58] transition-all duration-300 ease-in-out self-start">
               Read More
             </button>
           </div>
@@ -41,7 +41,7 @@ function TopSection() {
             <p className='w-full xl:w-[550px] text-gray-700 text-justify'>
             Quema Consulting is committed to employing the best qualified candidates while engaging in recruitment and selection practices that comply with all applicable employment laws. It is the policy of Quema Consulting to provide equal employment opportunity to all applicants and employees.
             </p>
-            <button className="bg-[#821fa0] text-white py-[14px] px-[30px] rounded-lg font-medium hover:bg-[#ae4bcc] transition-all duration-300 ease-in-out self-start xl:self-end">
+            <button className="bg-[#5f1928] text-white py-[14px] px-[30px] rounded-lg font-medium hover:bg-[#a23d58] transition-all duration-300 ease-in-out self-start xl:self-end">
               Read More
             </button>
           </div>

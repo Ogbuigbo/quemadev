@@ -33,7 +33,7 @@ function Middle() {
   </div>
   
     {/* Call to Action Button */}
-    <Link href='/contact' className="bg-[#821fa0] text-white py-3 px-8 rounded-lg font-medium hover:bg-[#ae4bcc] transition-all duration-300 ease-in-out text-lg">
+    <Link href='/contact' className="bg-[#5f1928] text-white py-3 px-8 rounded-lg font-medium hover:bg-[#a23d58] transition-all duration-300 ease-in-out text-lg">
       CONTACT US
     </Link>
   </div>
