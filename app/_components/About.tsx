@@ -36,7 +36,7 @@ function About() {
               <h2 className='text-2xl font-semibold text-gray-800'>
                 Mission
               </h2>
-              <p className='text-base text-gray-600'>
+              <p className='text-base text-gray-600 '>
                 Our mission is to bridge the gap for employers by finding the best candidates while fostering a dynamic, professional, and non-rigid work environment.
               </p>
             </div>
@@ -46,7 +46,7 @@ function About() {
               <h2 className='text-2xl font-semibold text-gray-800'>
                 Vision
               </h2>
-              <p className='text-base text-gray-600'>
+              <p className='text-base text-gray-600 t'>
                 We are committed to providing our employees with a stable work environment and equal opportunities for growth and development.
               </p>
             </div>

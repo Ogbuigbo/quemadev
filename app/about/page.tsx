@@ -1,6 +1,10 @@
 import React from 'react'
 import type { Metadata } from "next";
 import AboutScrollHandler from '../_components/aboutUsScrollHandler';
+import TopSection from './TopSection';
+import MiddleSection from './MiddleSection';
+import Logo from '../_components/Logo';
+
 
 export const metadata: Metadata = {
   title: "About",
@@ -10,9 +14,11 @@ export const metadata: Metadata = {
 function page({ searchParams }: { searchParams: { [key: string]: string } }) {
   
   return (
-    <div>
-      <h1>dev mode</h1>
+    <div >
+      <TopSection/>
       <AboutScrollHandler section={searchParams?.section} />
+      <MiddleSection/>
+      <Logo/>
     </div>
   )
 }
