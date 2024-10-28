@@ -15,7 +15,7 @@ function page({ searchParams }: { searchParams: { [key: string]: string } }) {
   return (
     <div className='pb-10'>
       <AboutScrollHandler section={searchParams?.section} />
-        <TopSection/>
+        <TopSection />
         <Middle/>
         <Bottom />
     </div>

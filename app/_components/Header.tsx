@@ -4,8 +4,6 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { NAV_LINKS } from '../utils/data';
-import Hamburger from '../../components/Hamburger';
-import Close from '../../components/Close';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 

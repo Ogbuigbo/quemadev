@@ -1,31 +1,32 @@
-import * as nodemailer from "nodemailer"
+import * as nodemailer from "nodemailer";
 
 type TMailOptions = {
-	subject: string
-	html: string
-}
-
+	subject: string;
+	html: string;
+	to?: string;
+};
 
 const transporter = nodemailer.createTransport({
-	host: process.env["GMAIL_HOST"],
-	port: parseInt(process.env["GMAIL_PORT"] || "587"),
-	secure: false, // Must be false for TLS on port 587
+	host: process.env["GOOGLE_HOST"],
+	port: parseInt(process.env["GOOGLE_PORT"] || "587"),
+	secure: false,
 	auth: {
-	  user: process.env["GMAIL_USER"],
-	  pass: process.env["GMAIL_PASSWORD"],
+		user: process.env["GOOGLE_USER"],
+		pass: process.env["GOOGLE_PASSWORD"],
 	},
-  });
+});
 
-const sendMail = async (options: TMailOptions) => {
+const sendMail = async ({ to, ...options }: TMailOptions) => {
 	try {
 		const info = await transporter.sendMail({
-			from: "Quema Consulting <chijiokejames82@gmail.com>",
-			to: ["chijiokejames82@gmail.com"],
+			from: "Quema Consulting <quemaconsulting@gmail.com>",
+			to: [to || "quemaconsulting@gmail.com"],
 			...options,
-		})
-		console.log("mail sent", info)
+		});
+		console.log("Mail sent:", info);
 	} catch (error) {
-		console.error(error)
+		console.error("Error sending mail:", error);
 	}
-}
-export { sendMail }
+};
+
+export { sendMail };

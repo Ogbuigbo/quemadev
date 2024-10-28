@@ -64,14 +64,13 @@ function Form() {
 						</div>
 
 						<div className="flex flex-col">
-							<label htmlFor="phone" className="text-gray-700 font-semibold mb-2">Phone <span className="text-red-600">*</span></label>
+							<label htmlFor="phone" className="text-gray-700 font-semibold mb-2">Phone <span className="text-gray-400">(optional)</span></label>
 							<input
 								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none  transition-all placeholder-gray-500 text-sm"
 								placeholder="Enter your phone number"
 								type="tel"
 								id="phone"
 								name="phone"
-								required
 							/>
 						</div>
 					</div>
