@@ -44,7 +44,7 @@ function Hero() {
   </Link>
   <Link
     className="block rounded px-8 py-3 text-sm font-medium border text-[#fff] shadow hover:text-black hover:bg-[#fff] transition-colors duration-300 focus:outline-none focus:ring active:text-[#0f151b] sm:w-auto"
-    href="#"
+    href="/about"
   >
     Learn More
   </Link>
